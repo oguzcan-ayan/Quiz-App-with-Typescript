@@ -70,6 +70,7 @@ function App() {
 
   const nextQuestion = () => {
     //move on to the next question if not the last question
+    
     const nextQuestion = number + 1;
 
     if (nextQuestion === totalQuestions) {
