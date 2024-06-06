@@ -114,7 +114,7 @@ function App() {
         ) : null
         }
 
-        {userAnswers.length === totalQuestions && (
+        {gameOver && userAnswers.length === totalQuestions && (
           <p>You guessed {score} questions correctly.</p>
         )
         }
