@@ -1,11 +1,32 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Quiz App
 
-Currently, two official plugins are available:
+Bu uygulama kullanıcıların farklı kategorilerden gelen sorularla bilgi düzeylerini ölçmek amacıyla oluşturulmuş bir uygulamadır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application was created to measure the knowledge levels of users with questions from different categories. 
+
+## Kullanılan Teknolojiler - Used Technologies
+
+[react@18.2.0](https://react.dev/)
+
+[react-dom@18.2.0](https://legacy.reactjs.org/docs/react-dom.html)
+
+[typescript@5.2.2](https://www.typescriptlang.org/)
+
+[styled-components@6.1.11](https://styled-components.com/docs)
+
+[@types/styled-components@5.1.34](https://styled-components.com/docs/faqs)
+
+[vite@5.2.0](https://vitejs.dev/guide/)
+
+
+
+Projeyi canlı olarak görmek istiyorsanız, [Projeye Git]()
+
+
+If you want to see the project, [Go Live]()
+
+
 
 ## Expanding the ESLint configuration
 
