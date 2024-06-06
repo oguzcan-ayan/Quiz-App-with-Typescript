@@ -21,10 +21,10 @@ This application was created to measure the knowledge levels of users with quest
 
 
 
-Projeyi canlı olarak görmek istiyorsanız, [Projeye Git]()
+Projeyi canlı olarak görmek istiyorsanız, [Projeye Git](https://quiz-f9id9j2f5-oguzcan-ayans-projects.vercel.app/)
 
 
-If you want to see the project, [Go Live]()
+If you want to see the project, [Go Live](https://quiz-f9id9j2f5-oguzcan-ayans-projects.vercel.app/)
 
 
 
