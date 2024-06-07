@@ -7,6 +7,9 @@ import QuestionCard from "./components/QuestionCard";
 //types
 import { QuestionState, Difficulty } from "./api/api";
 
+//styles
+import { GlobalStyle } from "./App.styles";
+
 export type AnswerObject = {
   question: string;
   answer: string;
@@ -83,6 +86,7 @@ function App() {
 
   return (
     <>
+    <GlobalStyle />
       <div>
         <h1>QUIZ TIME</h1>
         {
