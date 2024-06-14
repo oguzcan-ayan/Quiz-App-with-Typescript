@@ -8,7 +8,7 @@ import QuestionCard from "./components/QuestionCard";
 import { QuestionState, Difficulty } from "./api/api";
 
 //styles
-import { GlobalStyle } from "./App.styles";
+import { GlobalStyle, Wrapper } from "./App.styles";
 
 export type AnswerObject = {
   question: string;
@@ -87,7 +87,7 @@ function App() {
   return (
     <>
     <GlobalStyle />
-      <div>
+      <Wrapper>
         <h1>QUIZ TIME</h1>
         {
           gameOver || userAnswers.length === totalQuestions ? (
@@ -119,12 +119,7 @@ function App() {
         ) : null
         }
 
-        {gameOver && userAnswers.length === totalQuestions && (
-          <p>You guessed {score} questions correctly.</p>
-        )
-        }
-
-      </div>
+      </Wrapper>
     </>
   )
 }
